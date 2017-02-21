@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-02-04_1314",
+    "name": "Devin Bracci website",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -21,10 +21,12 @@
       }
     },
     "versionFirst": "3.10.5",
-    "uniqCompNum": 42,
-    "versionPublish": "3.11.1",
+    "uniqCompNum": 43,
+    "versionPublish": "3.10.5",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -46,10 +48,10 @@
           "_name": "header4",
           "_styles": {
             ".mbr-section-lead": {
-              "text-align": "right"
+              "text-align": "center"
             },
             ".mbr-section-title": {
-              "text-align": "right"
+              "text-align": "center"
             }
           },
           "_anchor": "header4-15",
@@ -255,15 +257,15 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-5",
+          "_name": "contacts3",
+          "_anchor": "contacts3-16",
           "_params": {
-            "paddingTop": "2",
+            "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#3d8eb9",
+            "bgColor": "#2e2e2e",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -271,8 +273,9 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/signiture-128x42.png",
-              "width": 128,
+              "src": "@PROJECT_PATH@/assets/images/download-265x174.jpg",
+              "class": "card-img-top",
+              "width": 265,
               "active": true,
               "link": "",
               "alt": "",
@@ -280,14 +283,74 @@
               "linkInNewWindow": false
             },
             "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
               "link": "",
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br>17422 Sw84 Ave",
-          "text2": "<strong>Contacts</strong><br>\nEmail: dbracci@miamiartsstudio.com<br>\nPhone: 786-479-7405<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "<p><strong>Links</strong><br><a href=\"http://mas.dadeschools.net/pate%20class%20website/index.html\">/pate</a></p>"
+          "text1": "Footer with solid color background and a contact form, Easily add subscribe and contact forms without any server-side integration.",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+1 (0) 000 0000 001 or +1 (0) 000 0000 002",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "1234 Street Name, City AA 99999",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts3",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">support@mobirise.com</a>",
+          "title1": "Categories",
+          "text5": "<li><a class=\"text-white\" href=\"#\">Business</a></li><li><a class=\"text-white\" href=\"#\">Design</a></li><li><a class=\"text-white\" href=\"#\">Real life</a></li><li><a class=\"text-white\" href=\"#\">Science</a></li><li><a class=\"text-white\" href=\"#\">Tech</a></li>",
+          "text6": "<strong>Contacts</strong><br>Email:dbracci@miamiartsstudio.com<br>Phone: +1 (0) 000 0000 001<br>Fax: +1 (0) 000 0000 002<br><br><br><strong>Address</strong><br>17422sw84ave",
+          "form": {
+            "title": "MESSAGE",
+            "action": "dbracci@miamiartsstudio.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": false,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contact us</a>"
         },
         {
           "_inherit": "menu",
@@ -355,12 +418,12 @@
             "logo": true,
             "showBrand": true,
             "collapsed": true,
-            "hideButtons": false
+            "hideButtons": true
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/signiture-384x128-2.png",
+              "src": "@PROJECT_PATH@/assets/images/signiture-384x128-3.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "page1.html",
@@ -374,7 +437,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Devin Bracci</a>",
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\">Adobe Photoshop</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Gallery</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Microsoft</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Microsoft Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"file:///E:/Homework/Discuss IT Topic 6 devin bracci.pdf\">Disscussit topic 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Powerpoint</a></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Refrences</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Teacher</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://mas.dadeschools.net/pate%20class%20website/index.html\">305 485-2323</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Intro\"><span class=\"socicon socicon-playstation mbr-iconfont mbr-iconfont-btn\"></span>Intro</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page1.html\"><span class=\"mbri-alert mbr-iconfont mbr-iconfont-btn\"></span>contacts</a></li>"
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Applications</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\">Adobe Photoshop</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Gallery</a></div></div><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Microsoft</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Microsoft Word</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"file:///E:/Homework/Discuss IT Topic 6 devin bracci.pdf\">Disscussit topic 6</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">Powerpoint</a></div></div></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">References</a><div class=\"dropdown-menu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Teacher</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://mas.dadeschools.net/pate%20class%20website/index.html\">305 485-2323</a></div></div></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"Intro\">Intro</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"page1.html\">contacts</a></li>"
         }
       ]
     },
