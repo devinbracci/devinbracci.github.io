@@ -23,7 +23,7 @@
     "versionFirst": "3.10.5",
     "uniqCompNum": 43,
     "versionPublish": "3.11.1",
-    "path": "file:///E:",
+    "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": ""
