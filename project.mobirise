@@ -22,8 +22,8 @@
     },
     "versionFirst": "3.10.5",
     "uniqCompNum": 47,
-    "versionPublish": "3.11.1",
-    "path": "file:///E:",
+    "versionPublish": "3.10.5",
+    "path": "file:///G:",
     "screenshot": "screenshot.png",
     "favicon": "",
     "noImageResize": ""
@@ -646,6 +646,46 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/images-2000x1498-800x599.png",
                 "image": "@PROJECT_PATH@/assets/images/images-2000x1498.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/devin-bracci-painting-1-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/devin-bracci-painting-1-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/devin-bracci-painting-2-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/devin-bracci-painting-2-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/devin-bracci-painting-3-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/devin-bracci-painting-3-2000x2666.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/devin-bracci-painting-4-2000x2666-800x1066.jpg",
+                "image": "@PROJECT_PATH@/assets/images/devin-bracci-painting-4-2000x2666.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
