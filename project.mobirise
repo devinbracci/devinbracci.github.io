@@ -59,7 +59,7 @@
             "parallax": true,
             "bgImageRadio": true,
             "showArrow": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/0713bfcf6240636060af766545458e5f-2000x1379-1.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/maxresdefault-1-2000x1125.jpg",
             "bgColor": "#a07e49",
             "bgColorRadio": false,
             "bgVideo": {
@@ -69,9 +69,9 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.3",
             "overlayColor": "#3d8eb9",
-            "contentAlign": "right",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": true,
             "showButtons": true
@@ -286,13 +286,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#307193"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#3985ad!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#3d8eb9"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -311,7 +311,7 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-p",
           "_params": {
-            "bgColor": "#3d8eb9",
+            "bgColor": "#000000",
             "fontSize": "0.9",
             "fontName": {},
             "fontColor": "#ffffff",
